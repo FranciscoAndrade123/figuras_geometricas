@@ -1,5 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
     const boton = document.getElementById('boton-envio');
+    const mostrarSalario = document.getElementById('mostrar-salario');
     const mostrarArl = document.getElementById('mostrar-arl');
     const mostrarSalud = document.getElementById('mostrar-salud');
     const mostrarPension = document.getElementById('mostrar-pension');
@@ -31,7 +32,7 @@ window.addEventListener('DOMContentLoaded', () => {
         })
         .then(response => response.json())
         .then(data => {
-        
+            mostrarSalario.innerHTML =  `<h3>Salario: $${data.Salario}</h3>`
             mostrarArl.innerHTML = `<h3>ARL:  ${data.ARL}</h3>`;
             mostrarSalud.innerHTML = `<h3>Salud: ${data.Salud}</h3>`;
             mostrarPension.innerHTML = `<h3>Pensión: ${data.Pension}</h3>`;
