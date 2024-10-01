@@ -1,6 +1,6 @@
 
 <?php
-include('/xampp/htdocs/POO/libreria/operaciones.php');
+include('operaciones.php');
 $operador = new operaciones();
 
 ?>

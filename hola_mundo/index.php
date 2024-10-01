@@ -1,6 +1,6 @@
 
 <?php
-include('libreria/saludo.php');
+include('saludo.php');
 $saludo = new Saludo();
 
 ?>
