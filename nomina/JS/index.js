@@ -40,7 +40,7 @@ window.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => {
             console.error('Error:', error);
-            mostrarArl.innerHTML = `<h3>Error al calcular el ARL</h3>`;
+            mostrarArl.innerHTML = `<h3>Error al calcular la nomina</h3>`;
         });
     });
 });
