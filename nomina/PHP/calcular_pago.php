@@ -1,6 +1,5 @@
 <?php
 
-
 class Calcular_pago {
     private $valores;
     public $salario;
