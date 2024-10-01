@@ -1,0 +1,72 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.formulario-nomina{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 370px;
+    border: 2px solid black;
+    border-radius: 32px;
+    background-color: rgb(243, 113, 66);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+
+}
+
+.titulo-nomina{
+    padding-top: 5px;
+    text-align: center;
+}
+
+.titulo-nomina h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.titulo-nomina hr{
+    margin-top: -8px;
+    border: 9px solid black;
+}
+
+.nomina{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+    display: grid;
+    gap: 12px;
+
+}
+
+.nomina h2{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.boton{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton input{
+    width: 180px;
+    height: 50px;
+    font-size: 30px;
+    padding-top: -5px;
+    border-radius: 12px;
+    background-color: red;
+    color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Para navegadores WebKit */
+    margin: 0; /* Para evitar el espacio de los botones */
+}
+
