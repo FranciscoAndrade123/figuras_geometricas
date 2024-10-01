@@ -27,7 +27,7 @@
                     <input type="number" min="0" style="width: 320px;border-radius: 8px;height: 40px; " id="valor-dias">
                 </div>
                 <div class="boton">
-                    <input type="submit"  value="Calcular" id="boton-envio">
+                    <input type="submit"  value="Calcular" id="boton-envio"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                 </div>
                 
             </div>
@@ -35,7 +35,32 @@
     <!--nomina-->
 
 <!-- Modal -->
-
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 style="padding-left: 130px; font-size: 40px;">Nomina</h1>
+        </div>
+        <div class="modal-body">
+           <div id="mostrar-arl">
+            
+           </div><br>
+           <div id="mostrar-salud">
+            
+           </div><br>
+           <div id="mostrar-pension">
+            
+           </div><br>
+           <div id="mostrar-deducible">
+            
+           </div><br>
+           <div id="mostrar-pagoTotal">
+            
+           </div>
+        </div>
+      </div>
+    </div>
+  </div> 
 <!--modal-->
 
     <script src="boostrap/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
